@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @AnubhavDash
 - 👀 I’m interested in Astronomy, Astrophysics, Cyber Security and programming 
 - 🌱 I’m currently learning cyber security
-- 💞️ I’m looking to collaborate on cyber security
+- 💞️ I’m looking to collaborate on cyber security, AI, deep learning and machine learning
 - Languages Known- English, Hindi, Hebrew
 - Programming Languages Known- Python, Java, PHP, HTML, CSS,Ruby, Scala, Julia, Rust
 - 📫 How to reach me anubhavdash91@gmail.com
