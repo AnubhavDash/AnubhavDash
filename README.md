@@ -1,12 +1,7 @@
-- 👋 Hi, I’m @AnubhavDash
-- 👀 I’m interested in Astrophysics, Cyber Security, Artificial Intelligence, Machine Learning and programming 
-- 🌱 I’m currently learning cyber security
-- 💞️ I’m looking to collaborate on cyber security, AI, deep learning and machine learning
-- Languages Known- English, Hindi, Hebrew, Russian
-- Programming Languages Known- Python, Java, PHP, HTML, CSS, Javascript
-- 📫 How to reach me anubhavdash91@gmail.com
+You will never see me coz I don't exist yet I will be always two ahead of you and still be watching you from behind.
 
-<!---
-AnubhavDash/AnubhavDash is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+This is my magic. The dark art of Cybersec.
+
+"Impatience for victory guarantees defeat"
+- Lord Baylan Skoll 
+from Ashoka series (Star wars)
