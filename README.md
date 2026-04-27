@@ -3,9 +3,6 @@
 from Ashoka series (Star wars)
 
 
-<a href="https://github.com/AnubhavDash/GitHub-Language-Stats">
-<img src="https://github.com/AnubhavDash/GitHub-Language-Stats/blob/master/generated/overview.svg#gh-dark-mode-only" />
-<img src="https://github.com/AnubhavDash/GitHub-Language-Stats/blob/master/generated/languages.svg#gh-dark-mode-only" />
-</a>
+![Anubhav's Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AnubhavDash&layout=compact&theme=dark)
 
-![Profile Views](https://komarev.com/ghpvc/?username=AnubhavDash)
+![Anubhav's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AnubhavDash&show_icons=true&theme=dark)
