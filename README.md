@@ -1,5 +1,5 @@
 <p align="center">
-  <strong style="font-size: 4em;"><em>Let the Devil out</em></strong>
+  <strong style="font-size: 3.5em;"><em>Let the Devil out</em></strong>
 </p>
 
 ---
