@@ -1,5 +1,4 @@
-### *"Impatience for victory guarantees defeat"*
-<p align="right"> — Lord Baylan Skoll, <i>Ahsoka</i> </p>
+### *"Let the Devil out."*
 
 ---
 
