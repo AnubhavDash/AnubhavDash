@@ -4,8 +4,7 @@ from Ashoka series (Star wars)
 
 ### Anubhav's Stats
 
-![Anubhav's Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AnubhavDash&layout=compact&theme=dark)
-
-![Anubhav's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AnubhavDash&show_icons=true&theme=dark)
-
-![Anubhav's Streak](https://github-readme-streak-stats.herokuapp.com/?user=AnubhavDash&theme=dark)
+<p align="center">
+  <img src="./profile/top-langs.svg" alt="Top Languages" />
+  <img src="./profile/stats.svg" alt="GitHub Stats" />
+</p>
