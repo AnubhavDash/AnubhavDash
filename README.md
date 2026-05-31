@@ -1,5 +1,5 @@
-> "Impatience for victory guarantees defeat"
-> -- Lord Baylan Skoll, *Ahsoka*
+### *"Impatience for victory guarantees defeat"*
+<p align="right"> — Lord Baylan Skoll, <i>Ahsoka</i> </p>
 
 ---
 
