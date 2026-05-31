@@ -12,28 +12,16 @@ jobs:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT_TOKEN }}
-      - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=dark
-          path: profile/stats.svg
       - name: Generate top languages card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&theme=dark
           path: profile/top-langs.svg
-      - name: Generate streak stats card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: streak-stats
-          options: user=${{ github.repository_owner }}&theme=dark
-          path: profile/streak-stats.svg
       - name: Commit and push
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add profile/*.svg
-          git commit -m "Update stats [skip ci]" || exit 0
+          git add profile/top-langs.svg
+          git commit -m "Update language stats [skip ci]" || exit 0
           git push
