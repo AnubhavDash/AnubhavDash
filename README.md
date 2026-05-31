@@ -15,5 +15,5 @@ from Ashoka series (Star wars)
 <br>
 
 <p align="center">
-  <img src="./profile/streak-stats.svg" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AnubhavDash&theme=dark" alt="GitHub Streak" />
 </p>
