@@ -1,9 +1,9 @@
-<h1 align="center" style="font-size: 100em;">
-  <em>Let the Devil out</em>
-</h1>
+<p align="center">
+  <strong style="font-size: 2.5em;"><em>Let the Devil out</em></strong>
+</p>
 
 ---
 
 <p align="center">
-  <img src="./profile/top-langs.svg" alt="Top Languages" width="400" />
+  <img src="./profile/top-langs.svg" alt="Top Languages" width="450" />
 </p>
