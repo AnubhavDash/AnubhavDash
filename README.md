@@ -5,5 +5,5 @@
 ---
 
 <p align="center">
-  <img src="./profile/top-langs.svg" alt="Top Languages" width="300" />
+  <img src="./profile/top-langs.svg" alt="Top Languages" width="400" />
 </p>
