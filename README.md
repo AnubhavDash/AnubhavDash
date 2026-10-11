@@ -1,6 +1,6 @@
 # Portfolio
 
-Security researcher working on L1 nodes and multimedia attack surface. I run auditing pipelines across Go and C codebases. Focus: P2P networking, VM/sandbox safety, and avfilter correctness.
+Security researcher working on L1 nodes and multimedia attack surface. I run auditing pipelines across Go and C codebases. Focus: P2P networking, VM/sandbox safety, and memory corruption.
 
 ### Selected disclosures
 
@@ -24,7 +24,7 @@ Additional findings remain under private disclosure or embargo and are added her
 
 - L1 and P2P clients (Go): resource exhaustion, pre-auth DoS, node crashes, API safety
 - VM and sandbox safety: integer overflows, bounds checks, gas accounting
-- Multimedia (C): avfilter correctness, OOB reads, overflow hardening
+- Multimedia (C): memory corruption, OOB reads/writes, integer overflows
 
 ---
 
