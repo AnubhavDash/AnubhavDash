@@ -25,9 +25,3 @@ Additional findings remain under private disclosure or embargo and are added her
 - L1 and P2P clients (Go): resource exhaustion, pre-auth DoS, node crashes, API safety
 - VM and sandbox safety: integer overflows, bounds checks, gas accounting
 - Multimedia (C): memory corruption, OOB reads/writes, integer overflows
-
----
-
-<p align="center">
-  <img src="./profile/top-langs.svg" alt="Top Languages" width="400" />
-</p>
