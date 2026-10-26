@@ -8,6 +8,8 @@ Every entry is publicly verifiable: each links to a merged fix or a published ad
 
 | Date | Project | Severity | Vulnerability | Reference |
 |------|---------|----------|---------------|-----------|
+| 2026-10 | klever-go | Moderate | Unauthorized minting: the staking-claim supply cap adds two int64s without an overflow guard, so a LARGER mint is accepted where a smaller one is refused | [GHSA-wx97-fhvf-42vg](https://github.com/klever-io/klever-go/security/advisories/GHSA-wx97-fhvf-42vg) |
+| 2026-10 | klever-go | Moderate | Missing IsRoyaltiesChangeStopped Check in updateRoyaltiesReceiver Permits Post-Stop Royalties Receiver Rewrite | [GHSA-344r-g6cw-g546](https://github.com/klever-io/klever-go/security/advisories/GHSA-344r-g6cw-g546) |
 | 2026-10 | klever-go | Moderate | Missing IsNFTMetadataChangeStopped Check in updateMetadataV2 Permits Post-Stop SFT Metadata Mutation | [GHSA-54v2-fp39-5w66](https://github.com/klever-io/klever-go/security/advisories/GHSA-54v2-fp39-5w66) |
 | 2026-10 | klever-go | **High** | Exponential Managed-Vector Clone Amplification Causes Validator/Node Denial of Service | [GHSA-qqr9-92pp-89p7](https://github.com/klever-io/klever-go/security/advisories/GHSA-qqr9-92pp-89p7) |
 | 2026-10 | klever-go | **High** | readKDATransfers clones one buffer per vector entry before unbounded gas charge, enabling remote memory exhaustion | [GHSA-3xw3-gjh2-5j94](https://github.com/klever-io/klever-go/security/advisories/GHSA-3xw3-gjh2-5j94) |
