@@ -8,6 +8,7 @@ Every entry is publicly verifiable: each links to a merged fix or a published ad
 
 | Date | Project | Severity | Vulnerability | Reference |
 |------|---------|----------|---------------|-----------|
+| 2026-10 | klever-go | **High** | Exponential DeletedAccounts growth in nested output merges causes validator/node denial of service | [GHSA-hw69-3fg8-wrmm](https://github.com/klever-io/klever-go/security/advisories/GHSA-hw69-3fg8-wrmm) |
 | 2026-10 | klever-go | Moderate | Unbounded bigint handles cause unmetered `PushState` deep clones | [GHSA-gjm9-w2m6-rmp9](https://github.com/klever-io/klever-go/security/advisories/GHSA-gjm9-w2m6-rmp9) |
 | 2026-10 | klever-go | **High** | `BigIntShl` result allocation occurs before result-size gas charging | [GHSA-r2gq-244g-h8p2](https://github.com/klever-io/klever-go/security/advisories/GHSA-r2gq-244g-h8p2) |
 | 2026-10 | klever-go | Moderate | Exact-Divisibility Rounding in DecreaseAll Adds Spurious Validator Penalties | [GHSA-w99g-8m9m-jrf7](https://github.com/klever-io/klever-go/security/advisories/GHSA-w99g-8m9m-jrf7) |
