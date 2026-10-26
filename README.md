@@ -8,6 +8,8 @@ Every entry is publicly verifiable: each links to a merged fix or a published ad
 
 | Date | Project | Severity | Vulnerability | Reference |
 |------|---------|----------|---------------|-----------|
+| 2026-10 | klever-go | **High** | Exponential Managed-Vector Clone Amplification Causes Validator/Node Denial of Service | [GHSA-qqr9-92pp-89p7](https://github.com/klever-io/klever-go/security/advisories/GHSA-qqr9-92pp-89p7) |
+| 2026-10 | klever-go | **High** | readKDATransfers clones one buffer per vector entry before unbounded gas charge, enabling remote memory exhaustion | [GHSA-3xw3-gjh2-5j94](https://github.com/klever-io/klever-go/security/advisories/GHSA-3xw3-gjh2-5j94) |
 | 2026-10 | klever-go | **High** | Exponential DeletedAccounts growth in nested output merges causes validator/node denial of service | [GHSA-hw69-3fg8-wrmm](https://github.com/klever-io/klever-go/security/advisories/GHSA-hw69-3fg8-wrmm) |
 | 2026-10 | klever-go | Moderate | Unbounded bigint handles cause unmetered `PushState` deep clones | [GHSA-gjm9-w2m6-rmp9](https://github.com/klever-io/klever-go/security/advisories/GHSA-gjm9-w2m6-rmp9) |
 | 2026-10 | klever-go | **High** | `BigIntShl` result allocation occurs before result-size gas charging | [GHSA-r2gq-244g-h8p2](https://github.com/klever-io/klever-go/security/advisories/GHSA-r2gq-244g-h8p2) |
