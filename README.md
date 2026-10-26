@@ -8,10 +8,10 @@ Every entry is publicly verifiable: each links to a merged fix or a published ad
 
 | Date | Project | Severity | Vulnerability | Reference |
 |------|---------|----------|---------------|-----------|
-| 2026-10 | klever-go | Moderate | Unbounded bigint handles cause unmetered `PushState` deep clones: no gas charged for clone count or copied bytes | [GHSA-gjm9-w2m6-rmp9](https://github.com/klever-io/klever-go/security/advisories/GHSA-gjm9-w2m6-rmp9) |
-| 2026-10 | klever-go | **High** | `BigIntShl` result allocation and shift occur before result-size gas charging: 256 MiB Lsh before gas abort | [GHSA-r2gq-244g-h8p2](https://github.com/klever-io/klever-go/security/advisories/GHSA-r2gq-244g-h8p2) |
-| 2026-10 | klever-go | Moderate | `DecreaseAll` exact-divisibility float rounding adds spurious leader/validator penalties: `float64` arithmetic with `math.SmallestNonzeroFloat64` fails for exact integer ratios | [GHSA-w99g-8m9m-jrf7](https://github.com/klever-io/klever-go/security/advisories/GHSA-w99g-8m9m-jrf7) |
-| 2026-10 | klever-go | Low | `UpdateValidatorInfoOnSuccessfulBlock` float fee split misallocates integer fee units: `float64` truncation transfers units from validators to leader | [GHSA-x5mg-959h-f66v](https://github.com/klever-io/klever-go/security/advisories/GHSA-x5mg-959h-f66v) |
+| 2026-10 | klever-go | Moderate | Unbounded bigint handles cause unmetered `PushState` deep clones | [GHSA-gjm9-w2m6-rmp9](https://github.com/klever-io/klever-go/security/advisories/GHSA-gjm9-w2m6-rmp9) |
+| 2026-10 | klever-go | **High** | `BigIntShl` result allocation occurs before result-size gas charging | [GHSA-r2gq-244g-h8p2](https://github.com/klever-io/klever-go/security/advisories/GHSA-r2gq-244g-h8p2) |
+| 2026-10 | klever-go | Moderate | Exact-Divisibility Rounding in DecreaseAll Adds Spurious Validator Penalties | [GHSA-w99g-8m9m-jrf7](https://github.com/klever-io/klever-go/security/advisories/GHSA-w99g-8m9m-jrf7) |
+| 2026-10 | klever-go | Low | Validator Fee-Split Float Rounding Misallocates Integer Fee Units | [GHSA-x5mg-959h-f66v](https://github.com/klever-io/klever-go/security/advisories/GHSA-x5mg-959h-f66v) |
 | 2026-09 | klever-go | **High** | Managed-buffer VM hooks allocate and copy attacker-sized data before bounded gas is enforced: validator memory exhaustion / OOM via `MBufferSetRandom` | [GHSA-cg9c-gcgh-qgc3](https://github.com/klever-io/klever-go/security/advisories/GHSA-cg9c-gcgh-qgc3) |
 | 2026-09 | klever-go | **High** | `MBufferGetByteSlice` int32 overflow bypasses bounds check: VM panic burns all caller gas | [GHSA-vxf6-vgpv-822h](https://github.com/klever-io/klever-go/security/advisories/GHSA-vxf6-vgpv-822h) |
 | 2026-09 | klever-go | **High** | `MBufferCopyByteSlice` int32 overflow bypasses bounds check: VM panic burns all caller gas | [GHSA-2m22-3m34-2qxf](https://github.com/klever-io/klever-go/security/advisories/GHSA-2m22-3m34-2qxf) |
