@@ -8,6 +8,7 @@ Every entry is publicly verifiable: each links to a merged fix or a published ad
 
 | Date | Project | Severity | Vulnerability | Reference |
 |------|---------|----------|---------------|-----------|
+| 2026-10 | klever-go | Moderate | Unbounded bigint handles cause unmetered `PushState` deep clones: no gas charged for clone count or copied bytes | [GHSA-gjm9-w2m6-rmp9](https://github.com/klever-io/klever-go/security/advisories/GHSA-gjm9-w2m6-rmp9) |
 | 2026-10 | klever-go | **High** | `BigIntShl` result allocation and shift occur before result-size gas charging: 256 MiB Lsh before gas abort | [GHSA-r2gq-244g-h8p2](https://github.com/klever-io/klever-go/security/advisories/GHSA-r2gq-244g-h8p2) |
 | 2026-10 | klever-go | Moderate | `DecreaseAll` exact-divisibility float rounding adds spurious leader/validator penalties: `float64` arithmetic with `math.SmallestNonzeroFloat64` fails for exact integer ratios | [GHSA-w99g-8m9m-jrf7](https://github.com/klever-io/klever-go/security/advisories/GHSA-w99g-8m9m-jrf7) |
 | 2026-10 | klever-go | Low | `UpdateValidatorInfoOnSuccessfulBlock` float fee split misallocates integer fee units: `float64` truncation transfers units from validators to leader | [GHSA-x5mg-959h-f66v](https://github.com/klever-io/klever-go/security/advisories/GHSA-x5mg-959h-f66v) |
