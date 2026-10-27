@@ -1,5 +1,7 @@
 # Portfolio
 
+![disclosures](https://img.shields.io/badge/disclosures-22-blue)
+
 Security researcher working on L1 nodes and multimedia attack surface. I run auditing pipelines across Go and C codebases. Focus: P2P networking, VM/sandbox safety, and memory corruption.
 
 ### Selected disclosures
