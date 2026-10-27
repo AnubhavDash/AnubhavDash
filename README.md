@@ -1,6 +1,6 @@
 # Portfolio
 
-![disclosures](https://img.shields.io/badge/disclosures-22-blue)
+![disclosures](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AnubhavDash/AnubhavDash/main/.github/badge.json)
 
 Security researcher working on L1 nodes and multimedia attack surface. I run auditing pipelines across Go and C codebases. Focus: P2P networking, VM/sandbox safety, and memory corruption.
 
