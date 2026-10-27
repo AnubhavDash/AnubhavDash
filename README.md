@@ -33,6 +33,11 @@ Every entry is publicly verifiable: each links to a merged fix or a published ad
 | 2026-02 | FFmpeg | **High** | Heap overflow in `vf_find_rect.c` via `downscale()`: off-by-one heap buffer over-read | [PR #21409](https://code.ffmpeg.org/FFmpeg/FFmpeg/pulls/21409) |
 | 2026-02 | FFmpeg | Low | Integer overflow in `scale_eval.c:144` via `ff_scale_adjust_dimensions()`: division by 0 in `eval_expr()` | [PR #21402](https://code.ffmpeg.org/FFmpeg/FFmpeg/pulls/21402) |
 
+Upstream credits these reports by name in its release notes and advisory credit records: `@AnubhavDash` is credited on 19 klever-go security advisories across [v1.7.21](https://github.com/klever-io/klever-go/releases/tag/v1.7.21) and [v1.7.22](https://github.com/klever-io/klever-go/releases/tag/v1.7.22).
+
+- **v1.7.21** — 6 advisories credited, plus removal of the unwired `klever-node-auth` path.
+- **v1.7.22** — 13 advisories credited, plus 4 accepted fixes shipped without a separate advisory: FPR epoch trim, expired-FPR residual routing, BigInt setter/getter gas ordering, and per-item managed-vector charging.
+
 Additional findings remain under private disclosure or embargo and are added here as fixes ship.
 
 ### Research areas
