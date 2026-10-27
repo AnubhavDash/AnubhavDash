@@ -8,6 +8,7 @@ Every entry is publicly verifiable: each links to a merged fix or a published ad
 
 | Date | Project | Severity | Vulnerability | Reference |
 |------|---------|----------|---------------|-----------|
+| 2026-10 | klever-go | Moderate | Marketplace Buy and Settlement Move Order Currency Without Transfer-Policy Checks, Routing Restricted Balances | [GHSA-3rvr-m2w2-ggqj](https://github.com/klever-io/klever-go/security/advisories/GHSA-3rvr-m2w2-ggqj) |
 | 2026-10 | klever-go | Moderate | ITO purchases move a paused or transfer-restricted currency without applying its transfer controls | [GHSA-vjj9-8392-w5hw](https://github.com/klever-io/klever-go/security/advisories/GHSA-vjj9-8392-w5hw) |
 | 2026-10 | klever-go | Moderate | FPR Deposit and Claim Paths Skip Reward-Currency Transfer Policy, Routing Restricted Balances | [GHSA-h45p-mxgj-59f8](https://github.com/klever-io/klever-go/security/advisories/GHSA-h45p-mxgj-59f8) |
 | 2026-10 | klever-go | Moderate | Unauthorized minting: the staking-claim supply cap adds two int64s without an overflow guard, so a LARGER mint is accepted where a smaller one is refused | [GHSA-wx97-fhvf-42vg](https://github.com/klever-io/klever-go/security/advisories/GHSA-wx97-fhvf-42vg) |
