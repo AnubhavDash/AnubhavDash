@@ -4,6 +4,8 @@
 
 AI & ML student. Security research on L1 consensus clients and multimedia attack surface.
 
+**Portfolio & research:** [Anubhav Dash](https://anubhavdash.github.io/Helm-of-Darkness/)
+
 ### Selected disclosures
 
 Every entry is publicly verifiable: each links to a merged fix or a published advisory. Dates are the fix-merge or publication month.
