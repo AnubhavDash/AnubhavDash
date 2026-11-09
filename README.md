@@ -47,5 +47,3 @@ Additional findings remain under private disclosure or embargo and are added her
 - **Memory corruption (C/C++)**: FFmpeg heap overflows, integer overflows, OOB reads/writes in multimedia codecs
 
 ---
-
-*AI & ML student doing security research on L1 consensus clients and multimedia attack surface. I run autonomous auditing pipelines across Go and C codebases. Focus: L1 consensus & P2P, VM/sandbox safety, and memory corruption.*
